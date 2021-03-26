@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: leanpkg build
+    command: 'echo "TODO: Replace with command to start project"'
+
+vscode:
+  extensions:
+    - leanprover.lean4@0.0.18:MgruwzLA3w9gDS4DbLzGNg==
